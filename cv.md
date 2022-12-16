@@ -54,3 +54,7 @@ namespace ConsoleApp1
 ## Education
 Completed basic general education, at this time I'm studying at a college in the specialty "Information technology software".
 
+## Languages:
+* English - Intermediate
+* Russian - Native
+* Belarusian - Native
