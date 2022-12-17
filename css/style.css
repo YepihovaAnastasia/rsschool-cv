@@ -51,10 +51,10 @@ h2{
 .container {
     max-width: 1445px;
     margin: 0 auto;
-    padding: 0;
+    padding:  20px;
 }
 
-.header {
+.header_content {
     margin-bottom: 105px;
 }
 
@@ -80,10 +80,6 @@ h2{
     display: inline-block;
 }
 
-.menu li+li {
-    padding-left: 155px;
-}
-
 .menu a {
     font-size: 20px;
     line-height: 25px;
@@ -98,7 +94,7 @@ h2{
 
 .header_content-name {
     font-size: 47px;
-    line-height: 50px;
+    line-height: 47px;
 }
 
 .header_content-language {
@@ -111,8 +107,8 @@ h2{
 }
 
 
-.about,
-.portfolio {
+.about_inner,
+.portfolio_inner {
     background-color: #F6F6F6;
 }
 
@@ -126,11 +122,11 @@ h2{
 }
 
 .about_inner {
-    padding: 120px 0 105px;
+    padding: 120px 30px 105px;
 }
 
 .skills_inner {
-    padding: 90px 0 110px;
+    padding: 90px 30px 110px;
 }
 
 .chapter_title {
@@ -173,7 +169,7 @@ h2{
 
 
 .portfolio_inner {
-    padding: 100px 0 90px;
+    padding: 100px 60px 90px;
 }
 
 .contacts_inner {
@@ -227,6 +223,13 @@ h2{
     max-width: 345px;
     width: 100%;
     margin: 75px 0 45px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contacts_social li {
+    margin-bottom: 15px;
 }
 
 .social_item img{
