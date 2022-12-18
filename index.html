@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about_me">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="header_content">
+            <div class="container">
+                <div class="header_content-inner">
+                    <div class="header_content-name">
+                        <h1>Anastasia <br> Yepikhova</h1>
+
+                    </div>
+                    <div class="header_content-info">
+                        <h2>Web-developer <br> 19 years old, Minsk</h2>
+                    </div>
+                    <div class="header_content-language">
+                        <a href="index-ru.html">RU</a>
+                        <a href="#">|</a>
+                        <a href="#">ENG</a>
+                    </div>
+                </div>
+
+                <img src="./img/avatar.jpg" alt="avatar" class="avatar">
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="about" id="about_me">
+            <div class="container">
+                <div class="about_inner">
+                    <div class="chapter_title">
+                        About me
+                    </div>
+
+                    <div class="block_text">
+                        Hi, I'm Anastasia - junior web-developer from Minsk.
+                        <br>
+                        I'm interested in frontend and everything connect with it.
+                    </div>
+                    <div class="block_text">
+                        I have completed secondary education and I'm currently studying in college.
+                    </div>
+                    <div class="block_text">
+                        Ready to learn new things
+                        <br>
+                        and gain experience in web development.
+                    </div>
+
+                    <div class="block_text eng">
+                        English - Intermediate.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="skills_inner">
+                    <div class="chapter_title">
+                        Skills
+                    </div>
+
+                    <div class="block_text">
+                        I have skills in areas such as:
+                    </div>
+
+
+                    <div class="skills_items_inner">
+                        <ul class="skills_items">
+                            <li class="skills_item">
+                                <img src="./img/skills/html.svg" alt="html" />
+                            </li>
+                            <li class="skills_item">
+                                <img src="./img/skills/css.svg" alt="html" />
+                            </li>
+                            <li class="skills_item">
+                                <img src="./img/skills/js.svg" alt="js" />
+                            </li>
+                            <li class="skills_item">
+                                <img src="./img/skills/php.svg" alt="php" />
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="portfolio_inner">
+                    <div class="chapter_title">
+                        Portfolio
+                    </div>
+                    <a href="https://YepihovaAnastasia.github.io/salon/">
+                        <img src="./img/portfolio.png" alt="project">
+                    </a>
+                    <div class="caption_img">
+                        <a href="https://YepihovaAnastasia.github.io/salon/">
+                            Beauty salon
+                        </a>
+                    </div>
+
+                    <div class="chapter_title code_example">
+                        Code example
+                    </div>
+                    <div>
+                        <pre>
+                            <code class="block_text code">
+    using System;
+    using System.Linq;
+                        
+    namespace ConsoleApp1
+    {
+        class Program
+        {
+            static bool IsPalindrome(string str)
+            {
+                return str == new string(str.Reverse().ToArray());
+            }
+    
+            static void Main()
+            {
+                Console.Write("Введите строку: ");
+                var str = Console.ReadLine();
+                var result = IsPalindrome(str);
+                var message = "Является ли строка '" + str + 
+                "' палиндромом: " + result;
+    
+                Console.WriteLine(message);
+    
+                Console.ReadKey();
+            }
+        }
+    }
+                            </code>
+                          </pre>
+                      </div>
+                
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts_inner">
+                    <div class="chapter_title">
+                        Contacts
+                    </div>
+
+                    <div class="block_text">
+                        Want to know more or just chat?
+                        <br>
+                        You are welcome!
+                    </div>
+
+                    <div class="btn"><a href="https://t.me/userAna">Send message</a></div>
+
+                    <ul class="contacts_social">
+                        <li class="social_item">
+                            <a href="#"><img src="./img/social/linedin.svg" alt="linedin"></a>
+                        </li>
+                        <li class="social_item">
+                            <a href="https://www.instagram.com/nastya_epihova/"><img src="./img/social/instagram.svg"
+                                    alt="instagram"></a>
+                        </li>
+                        <li class="social_item">
+                            <a href="https://github.com/YepihovaAnastasia"><img src="./img/social/github.svg"
+                                    alt="GitHub"></a>
+                        </li>
+                        <li class="social_item">
+                            <a href="https://rs.school/js/"><img src="./img/social/rsschool.svg" alt="rs"></a>
+                        </li>
+                    </ul>
+
+                    <div class="social_caption">
+                        Like me on
+                        <br>
+                        LinkedIn, Instagram, GitHub
+                        <br>
+                        2022
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
