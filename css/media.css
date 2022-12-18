@@ -1,3 +1,9 @@
+@media (max-width: 950px) {
+    .code{
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 780px) {
     .skills_items {
         flex-wrap: wrap;
@@ -21,6 +27,12 @@
 
     .header_content-name {
         line-height: 42px;
+    }
+}
+
+@media (max-width: 700px){
+    .code{
+        font-size: 10px;
     }
 }
 
@@ -80,6 +92,10 @@
 
     .contacts_inner {
         padding: 95px 0 100px;
+    }
+
+    .code{
+        font-size: 8px;
     }
 }
 

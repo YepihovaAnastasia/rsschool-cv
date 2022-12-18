@@ -14,6 +14,7 @@ body {
     /* color: #070707; */
     margin: 0;
     padding: 0;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -149,6 +150,10 @@ h2{
     margin-bottom: 50px;
 }
 
+.block_text .eng {
+    margin: 0px;
+}
+
 .skills_inner .block_text {
     margin-bottom: 70px;
     margin-top: 60px;
@@ -169,7 +174,7 @@ h2{
 
 
 .portfolio_inner {
-    padding: 100px 60px 90px;
+    padding: 0px 60px 90px;
 }
 
 .contacts_inner {
@@ -177,7 +182,11 @@ h2{
 }
 
 .portfolio_inner .chapter_title {
-    margin-bottom: 55px;
+    margin: 100px 0px 55px;
+}
+
+.portfolio_inner .code_example {
+    margin: 100px 0px 38px;
 }
 
 .portfolio_inner img{
@@ -197,6 +206,10 @@ h2{
     margin-top: 40px;
     padding-bottom: 1px;
     border-bottom: 1px solid black;
+}
+
+pre{
+    margin: 0;
 }
 
 .contacts_inner .block_text {
